@@ -3,31 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Thursday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌥️ 12°C</div>
-    </main>
-    <footer>
-      This page was coded by
-      <a href="https://github.com/Metasilentium">Michelle Otero</a> and is on
-      <a href="https://github.com/Metasilentium/clima">Github</a> and hosted on
-      <a href="https://coruscating-moonbeam-1b47a0.netlify.app/">Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Thursday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌥️ 12°C</div>
+      </main>
+      <footer>
+        This page was coded by
+        <a href="https://github.com/Metasilentium">Michelle Otero</a> and is on
+        <a href="https://github.com/Metasilentium/clima">Github</a> and hosted
+        on
+        <a href="https://coruscating-moonbeam-1b47a0.netlify.app/">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
