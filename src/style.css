@@ -92,6 +92,8 @@ footer {
 }
 
 .weather-forecast {
+  display: flex;
+  justify-content: space-around;
   margin-top: 20px;
   text-align: center;
   color: #000;
@@ -103,8 +105,16 @@ footer {
   padding-bottom: 0;
 }
 
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #d789d7;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .weather-forecast-temperature {
-  font-size: 13px;
+  padding: 0 10px;
 }
 
 .weather-forecast-temperature-min {
